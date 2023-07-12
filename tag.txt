@@ -25,8 +25,8 @@ save_dir = f"{gwebui_dir}/models/Stable-diffusion"  # f"{gwebui_dir}/models/Lora
 
 肉感:urvy,voluptuous,
 
-脸部:
- mature female,red lips,   long eyelashes,thick lips,
+脸部main:
+ mature female,red lips,   long eyelashes,thick lips,lace chocker,
 发型:
 ,((forehead)),parted bangs, hair up, parted hair, 
 
@@ -42,16 +42,50 @@ hair between eyes,
 (( parted bangs:1.3)),(hair up),
 
 Elsa:
+{白裙:long hair, white cape, white dress,
+冰裙:blue ice dress, single braid,
+黑色毛皮裙: fur trim, single_braid,dark cape, dark dress,
+绿色斗篷裙:black long sleeves, green bodice, green gloves, green skirt, purple cloak,
 
-<lora:Wrise_Elsa2:0.3>,elsa \(frozen\),
+头发扎起来:tiara, updo, blonde hair, 
+长发:long hair,wavy hair, blonde hair, 
+辫子:single braid, blonde hair, 
 
-ice of lord,
 
-blonde hair,
-mature female, long eyelashes,(thick lips),red lips,lace choker,
-blue eyes, earrings, necklace, thick lips, thick arms,jewelry,
+ <lora:elsa_of_arendelle_v1:1>,elsa of arendelle,
+tiara, updo,
+ mature female,red lips,   long eyelashes,thick lips,lace choker, 
 
-white gloves,huge breasts,
+white gloves, blue ice dress, huge breasts, 
+
+
+}
+照美冥:
+{
+
+ <lora:nar_terumi_mei:1>,nar_terumi_mei,
+long hair, 
+ mature female,red lips,   long eyelashes,thick lips,pearl necklace, 
+long hair, hair over one eye, orange hair, 
+((blue kimono)), 
+,huge breasts,knee boots, 
+}
+巫师希里ciri:
+
+ <lora:ciri:0.5>,ciriW3_soul3142,
+
+ciriW3_soul3142, white hair,blue eyes, scar, scar on face, scar across eye,
+ mature female,red lips,   long eyelashes,thick lips,
+white shirt, gloves,necklace, 
+huge breasts, 
+
+赛博朋克夹克:
+ <lora:ciri:0.5>,ciriW3_soul3142,
+
+ciriW3_soul3142, white hair,blue eyes, scar, scar on face, scar across eye,
+ mature female,red lips,  long eyelashes,thick lips,
+jacket, black jacket,leather jacket, cyberpunk,cyberpunk jacket,  shirt, black shirt, chain,
+huge breasts, 
 
 莫甘娜:
 <lora:Star_Nemesis_Morgana:0.7>,star nemesis morgana,
@@ -61,19 +95,47 @@ white hair, parted bangs, hair ornament,yellow eyes,
 earrings, 
 ,dress,
 
+虫茧女皇:
+ <lora:mlp_queenchrysalis:1>,mlpchrysalis,
+tiara,blue hair,green eyes, hair between eyes, 
+lace choker, 
+dress, detached sleeves, 
+pantyhose, 
+巫师特莉丝triss:
+upper body,
+<lora:triss:0.7>,
+trissW3_soul3142,red hair,
+mature female,red lips,   long eyelashes,thick lips,green eyes,
+necklace, lace choker,
+, green dress, long sleeves, huge breasts,
+
+
+露西lucy:
+cyberpunk,
+cyberpunk city,
+<lora:lucy_offset:0.7>,
+lucy \(cyberpunk\), 
+lu1,cyborg,
+short hair, (multicolored hair:1.3),
+mature female,red lips,   long eyelashes,
+huge breasts,  
+makeup,bare shoulders,
+(white jacket,open jacket),
+pants, 
+
 
 
 辉夜（角:horns,）:
 (鸭子坐)wariza, cleavage, off shoulder,
 
+
 <lora:kaguya[V1.6]:0.6>,kaguya,
-absurdly long hair,white hair, 
- mature female,red lips,   long eyelashes,thick lips,lace choker, floating hair,
-pale skin,third eye,large breasts, 
-
+ <lora:KAGUYAV165ANYTHINK:0.7>,
+,white hair, 
+ mature female,red lips,   long eyelashes,thick lips,(lace choker), 
+pale skin,huge breasts, third eye,
+cleavage, 
 otsutsuki kimono,white kimono, 
-
-
 
 
 春野樱:
@@ -121,7 +183,7 @@ high heels,(red shoe soles),
  <lora:sxz-tyrande-22:0.8>,tyrande,full moon, 
 urvy,voluptuous,
 aqua hair, ponytail,
- mature female,red lips,   long eyelashes,(thick lips),pointy ears, 
+ mature female,red lips,   long eyelashes,pointy ears, 
 
 white dress, pauldrons,armguards,
 jewelry, earrings, tiara, 
@@ -298,11 +360,11 @@ strappy heels,
 指挥官融合:
 <lora:YorhaCommander-000019:0.8>,<lora:yorhaCommander_v10:0.7>,yorcom,
 urvy,voluptuous,
-high ponytail, blonde hair, long hair,mature woman,red lips, long eyelashes,  glowing eyes,(thick lips),lace choker, 
+high ponytail, blonde hair, long hair,mature woman,red lips, long eyelashes,(thick lips),lace choker, 
 necklace, 
 lace-trimmed gloves,detached collar,
 ((OriginalOutfit, Commander Dress)),(mesh),(mesh on breasts),  
-hair ornament,(white thighhighs), 
+hair ornament,(black thighhighs), 
  <lora:pumpsheel_V2:0.3>,(black high heels, black stiletto heels),
 
 
@@ -332,21 +394,42 @@ lace-trimmed skirt, long skirt,
 inside room,
 <lora:ryanreosStyle_v10:0.6>, ryanreos,
 demon girl, demon horns, ryanreos,demon tail,detached sleeves,pointy ears,  yellow eyes, seductive smile, mature female,red hair,earrings, 
+red lips, thick lips, 
 (sports bra), 
 huge breasts, big breasts,
 (crotch tattoo on underbelly),
 (pubic tattoo on stomach),
-,(lace-trimmed legwear), (black pantyhose),
+,((thighhighs)), 
+ <lora:pumpsheel_V2:0.4>,(black high heels, black stiletto heels),
+红色魅魔（西装）:
 
+
+
+<lora:ryanreosStyle_v10:0.6>, ryanreos,
+demon girl, demon horns, ryanreos,demon tail,pointy ears,  yellow eyes, seductive smile, mature female,red hair,earrings, 
+heart necklace, 
+red lips, thick lips, 
+,(lace choker:1.2), 
+(detached sleeves),
+collared shirt,
+pencil skirt, 
+,(thighhighs), 
+
+ <lora:pumpsheel_V2:0.4>,(black high heels, black stiletto heels),
+
+
+// business suit,business jacket, jacket on shoulders, 
 紫色魅魔:
- <lora:Herzha:0.8>,
+ <lora:Herzha:0.8>,lace choker, 
 herzha,urvy,voluptuous,
-pink eyes, slit pupils, black lips, grin, purple skin, horns,purple hair, medium hair,
-
-huge breasts, earrings, 
-heart necklace, (crotch tattoo on underbelly),
+pink eyes, slit pupils, black lips, purple skin, horns,purple hair, medium hair,seductive smile, thick lips, 
+lace choker, 
+huge breasts, earrings,
+heart necklace, 
+herzhaoutfit, checkered jacket,jacket, 
+lace-trimmed bra, 
+(crotch tattoo on underbelly),
 (pubic tattoo on stomach),
-herzhaoutfit, checkered jacket,lace-trimmed bra, 
 lace-trimmed panties, ((thighhighs)), 
 
 
@@ -355,11 +438,11 @@ Mai:<lora:akiryosMai_v10:0.7>,akiryo-mai,shiranui mai,
 Primrose:
 西装版
 <lora:ryanreosStyle_v10:0.6>, ryanreos,
-hair bun,single hair bun, red hair, rough sex, 
-green eyes, semi-rimless eyewear,lipstick, mature female, long eyelashes,  glowing eyes,
-huge breasts, 
-office room,
-business suit,( legwear garter),(black pantyhose),
+hair up,single hair bun, red hair, rough sex, 
+green eyes, semi-rimless eyewear,lipstick, mature female, long eyelashes, 
+office room,lace choker, 
+business suit,
+( legwear garter),(black pantyhose),
 strappy heels,
 
 原服装:
@@ -449,9 +532,15 @@ OL:office room,
 black jacket, white shirt,  black pencil skirt,,(white legwear garter:1.2),(black pantyhose),
 strappy heels,
 
-美杜莎:<lora:Medusa_v10:0.5>,necklace,black hair,mature female, lipstick,  long eyelashes,  glowing eyes,(thick lips),seductive smile, earrings, pointy ears,long hair, hair ornament,
-red dress, huge breasts, tunic, shoulder armor, jacket on shoulders, 
-jewelry, legwear garter,pantyhose, 
+美杜莎:
+ <lora:cailin-v1.5-lora-naivae-final:0.6>,cai lin,
+long hair,forehead mark,yellow eyes, hair ornament, 
+mature female,red lips,   long eyelashes,
+ pointy ears, jewelry,
+huge breasts,
+tube top,midriff,
+red dress,
+
 
 卡尔玛:
  <lora:tranqulity_dragon_karmaV3:0.8>, tranquility dragon karma,
@@ -527,7 +616,8 @@ black dress,cleavage,pelvic curtain,
 原神 罗莎琳:<lora:signoraGenshinImpact_v25:0.7>,fur trim, jewelry, long hair, one eye covered, signora \(genshin impact\), wavy hair,shoulder armor,pauldrons,
 
 雷电将军:
- <lora:Raiden:0.8>, raiden_genshin,
+{偏幼 
+<lora:Raiden:0.8>, raiden_genshin,
 , ((hair over breasts)),((single braid, side braid)),
 (purple hair:1.2),seductive smile,mature woman,red lips,long eyelashes,(thick lips),
 necklace, blunt bangs,braid,hair ornament,
@@ -537,7 +627,44 @@ necklace, blunt bangs,braid,hair ornament,
 japanese clothes, huge breasts, 
 
 
-(purple legwear garter),(purple pantyhose),
+(purple legwear garter),(purple pantyhose),}
+
+{偏熟
+<lora:raiden shogun_LoRA:0.6>,raiden shogun, Raiden_Shogun_\(genshin impact\),
+
+,red lips,long eyelashes,
+
+ (purple hair),blunt bangs,braided ponytail, 
+necklace,lace choker, 
+,purple kimono, long sleeves,
+,huge breasts, 
+long skirt, 
+}
+{西装版:
+<lora:raiden shogun_LoRA:0.4>,raiden shogun, Raiden_Shogun_\(genshin impact\),
+
+
+
+ (purple hair),blunt bangs,braided ponytail, 
+name tag, 
+ mature female,red lips,long eyelashes,
+necklace,lace choker, (semi-rimless eyewear), 
+((collared shirt)),black jacket,business suit, 
+chain, 
+huge breasts, 
+pencil skirt, 
+whtie thighhighs, 
+ <lora:pumpsheel_V2:0.4>,(black high heels, black stiletto heels),
+
+}
+
+山中井野:
+
+ <lora:Ino:0.6>,yamanaka ino, 
+ mature female,red lips,long eyelashes,lace choker, 
+blonde hair, high ponytail,hair over one eye,  
+ (semi-rimless eyewear), 
+(collared shirt),black jacket,business suit, 
 
 露易丝:<lora:stLouisLuxuriousWheels_v1:0.8>, <lora:st louis epoch5:0.8> st. louis \(luxurious wheels\) \(azur lane\),
 
@@ -552,10 +679,6 @@ japanese clothes, huge breasts,
 笑:seductive smile, 
 
 项圈:choker,
-
-红底高跟鞋:
-
-high heels,(red shoe soles),
 
 豌豆大衣:
 
@@ -627,9 +750,6 @@ pantyhose,
 knee boots, 
 
 高帮靴:knee boots, 
-
-西装:<lora:recruitSuit_recsuitVer2:0.8>,
-black jacket, white shirt, moderately long black pencil skirt, pantyhose,knee boots, 
 
 开火车:(2girl),
 <lora:murkysSuspendedCongress_1:0.8>,suspended congress,ass focus, ass grab,hands under legs, standing, hug, leg lock, breast press,straddling, lifting person, penis,cumdrip,cum in pussy,pusyy juice,open mouth,
