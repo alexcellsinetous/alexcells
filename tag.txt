@@ -41,6 +41,14 @@ hair between eyes,
 扎头发:
 (( parted bangs:1.3)),(hair up),
 
+
+隐形:
+
+ <lora:invisible:1>,
+((no humans)), (headless), no headwear, no hands,no arms,no feet,
+huge breasts, high ponytail, 
+labcoat,
+lace choker, 
 Elsa:
 {白裙:long hair, white cape, white dress,
 冰裙:blue ice dress, single braid,
@@ -358,13 +366,14 @@ strappy heels,
 
 
 指挥官融合:
-<lora:YorhaCommander-000019:0.8>,<lora:yorhaCommander_v10:0.7>,yorcom,
-urvy,voluptuous,
-high ponytail, blonde hair, long hair,mature woman,red lips, long eyelashes,(thick lips),lace choker, 
+<lora:YorhaCommander-000019:0.8>,<lora:yorhaCommander_v10:0.4>,yorcom,
+huge breasts, covered nipples, 
+high ponytail, blonde hair, long hair,mature woman,red lips, long eyelashes,(thick lips),blue eyes, 
 necklace, 
-lace-trimmed gloves,detached collar,
+lace-trimmed gloves,
 ((OriginalOutfit, Commander Dress)),(mesh),(mesh on breasts),  
-hair ornament,(black thighhighs), 
+hair ornament,
+(lace choker),(black thighhighs), 
  <lora:pumpsheel_V2:0.3>,(black high heels, black stiletto heels),
 
 
@@ -533,13 +542,14 @@ black jacket, white shirt,  black pencil skirt,,(white legwear garter:1.2),(blac
 strappy heels,
 
 美杜莎:
- <lora:cailin-v1.5-lora-naivae-final:0.6>,cai lin,
-long hair,forehead mark,yellow eyes, hair ornament, 
-mature female,red lips,   long eyelashes,
- pointy ears, jewelry,
+
+<lora:cailin-v1.5-lora-naivae-final:0.6>,cai lin,
+black hair,long hair,yellow eyes, hair ornament,
+mature female,   long eyelashes,
+pointy ears, jewelry,
 huge breasts,
-tube top,midriff,
-red dress,
+tube top,midriff,red dress,
+thighhighs, 
 
 
 卡尔玛:
@@ -638,7 +648,7 @@ japanese clothes, huge breasts,
 necklace,lace choker, 
 ,purple kimono, long sleeves,
 ,huge breasts, 
-long skirt, 
+long skirt, 	
 }
 {西装版:
 <lora:raiden shogun_LoRA:0.4>,raiden shogun, Raiden_Shogun_\(genshin impact\),
@@ -650,7 +660,6 @@ name tag,
  mature female,red lips,long eyelashes,
 necklace,lace choker, (semi-rimless eyewear), 
 ((collared shirt)),black jacket,business suit, 
-chain, 
 huge breasts, 
 pencil skirt, 
 whtie thighhighs, 
